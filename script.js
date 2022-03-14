@@ -1,7 +1,7 @@
 const timeEl=document.getElementById("time")
 
 function countDown() {
-  const finalDate = new Date("1 jan 2022");
+  const finalDate = new Date("20 may 2022");
   let currentDate = new Date();
 
   let totalSeconds = (finalDate - currentDate)/1000;
